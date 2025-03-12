@@ -1,3 +1,5 @@
 /venv/*
 .env
 .vscode/settings.json
+/bot/__pycache__/*
+
