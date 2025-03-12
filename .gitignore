@@ -1,5 +1,6 @@
 /venv/*
 .env
-.vscode/settings.json
-/bot/__pycache__/*
+./vscode/settings.json
+bot/__pycache__/*
+services/__pycache/*
 
