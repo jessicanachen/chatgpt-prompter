@@ -12,4 +12,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run both FastAPI and Bot via a startup script or command
-CMD ["bash", "-c", "uvicorn backend.main:app --host 0.0.0.0 --port 8000 & python run_bot.py"]
+# CMD ["bash", "-c", "uvicorn backend.main:app --host 0.0.0.0 --port 8000 & python run_bot.py"]
+CMD ["bash", "-c", "python run_bot.py"]

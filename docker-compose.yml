@@ -5,8 +5,8 @@ services:
     build: .
     container_name: chatgpt-discord-app
     env_file: .env
-    ports:
-      - "8000:8000"  # FastAPI exposed here
+    # ports:
+    #   - "8000:8000"  # FastAPI exposed here
     depends_on:
       - redis
     volumes:
@@ -19,3 +19,4 @@ services:
     ports:
       - "6379:6379"
     restart: always
+
